@@ -4,6 +4,8 @@ idea and goal of a project
 
 structure of ptoject )map)
 
+what are features
+
 explaining scraping data(sample)
 
 finding sessions (explaining how i defined them)
