@@ -9,9 +9,7 @@ from bs4 import BeautifulSoup as bs
 def read_data(filename):
     """
     This function reads the log file and then parse them into a pre-defined columns
-    
     """
-    
     pattern = r'\s(?=(?:[^"]*"[^"]*")*[^"]*$)(?![^\[]*\])'
     
     df = pd.read_csv(os.path.join("../input", filename),
@@ -24,15 +22,12 @@ def read_data(filename):
     
     return df
 
-
-
 def session_indentifier(df):
-    """This function finds sessions for each unique pair of ip and user agent with a 30 min interval between two 
-        consecutive session. so each pair might have several sessions.   
-
+    """
+    This function finds sessions for each unique pair of ip and user agent with a 30 min interval between two 
+        consecutive sessions. so each pair might have several sessions.   
     Args:
         df : the base dataframe which must includes ip, time, user agent
-
     Returns:
         df['session']: this new column identifies sessions (int)
     """
