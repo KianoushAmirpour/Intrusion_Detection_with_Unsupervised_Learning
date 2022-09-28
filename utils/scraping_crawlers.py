@@ -1,4 +1,4 @@
-# This file scrapes some 3 websites to get the most up to date list of known crwalers
+# This file scrapes 3 websites to get the most up to date list of known crwalers
 
 import os
 from time import sleep
