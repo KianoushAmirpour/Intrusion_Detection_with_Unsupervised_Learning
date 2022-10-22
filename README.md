@@ -1,4 +1,4 @@
-# Intrusion_Detection_with_unsupervised_Learning
+## Intrusion_Detection_with_unsupervised_Learning
 
 This is the final project for advanced machine learning course represented by [Rahnema College](https://rahnemacollege.com/). In this project, we were asked to identify intrusion in a system, which relies on the analysis of logs. Since the ground truth labels of anomalous behaviors were not given to us, we had to use unsupervised anomaly detection methods.
 
