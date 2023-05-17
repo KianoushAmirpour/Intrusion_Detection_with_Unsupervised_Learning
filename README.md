@@ -23,7 +23,7 @@ In [Feature_Generation_and_EDA_based_on_them](https://github.com/KianoushAmirpou
 
 I also tried some data transformation techniques including Power, Quantile, Logarithmic, Reciprocal, Square Root, Exponential and coxbox Transformations to see which one workes better for this project. The effects on the distribution of features under each of mentioned transormations can be seen [here](https://github.com/KianoushAmirpour/Intrusion_Detection_with_Unsupervised_Learning/blob/main/EDA/Distributions.ipynb).
 
-For finding the anomalous behaviors, Isolation forest and Guassian moxture models were used. (add photoes) and make it more beatiful 
+For finding the anomalous behaviors, Isolation forest and Guassian moxture models were used. you can find more details [here](https://github.com/KianoushAmirpour/Intrusion_Detection_with_Unsupervised_Learning/tree/main/models)
 
 
 
@@ -33,21 +33,7 @@ For finding the anomalous behaviors, Isolation forest and Guassian moxture model
 
 
 
-idea and goal of a project 
 
-structure of ptoject )map)
-
-what are features
-
-explaining scraping data(sample)
-
-finding sessions (explaining how i defined them)
-
-results of different approaches(prefereably graphs )
-
-deep learning training process !!!
-
-comparing results
 
 
 
